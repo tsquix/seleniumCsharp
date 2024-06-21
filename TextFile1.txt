@@ -1,0 +1,11 @@
+using System;
+using Microsoft.Playwright;
+
+class Program
+{
+    public static async Task Main(string[] args)
+    {
+        await Playwright.CreateAsync();
+        Console.WriteLine("Browsers downloaded successfully.");
+    }
+}
